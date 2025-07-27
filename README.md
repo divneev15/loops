@@ -34,6 +34,7 @@ Other Concepts
 - Nested Loops: A loop inside another loop; useful for pattern printing and multi-dimensional tasks.
 
 # Implementation Overview
+
 Programs implemented:
 
 Floyd's Triangle
@@ -46,13 +47,11 @@ Centered Reverse Pyramid
 
 Right-Aligned Pyramid
 
-Hourglass Pattern
+Print no. between 0 to 20 
 
 Alphabet Pattern
 
 Even Numbers 0–10
-
-Nested Loops (Outer & Inner Counters)
 
 Reverse Integer
 
@@ -118,6 +117,7 @@ Lock system if attempts reach 3.
 End program.
 
 # Program 3: Left-Aligned Star Pyramid
+
 Objective: Print increasing number of stars in each row.
 
 Steps:
@@ -189,23 +189,44 @@ End the loop when i becomes greater than 20.
 
 End the program.
 
-# Program 7: Alphabet Pyramid
 
-Objective: Print alphabet in triangle format (A, B, C...).
+# Program 7:
+
+Objective: to print Floyds Series
 
 Steps:
 
-Start program.
+1.Start the program
 
-Set a character variable to 'A'.
+2.Declare Variables
 
-Loop from row 1 to total rows.
+3.i: Loop control for rows
 
-For each row, print characters increasing by one each time.
+4.j: Loop control for printing numbers in each row
 
-Move to next line after inner loop.
+5.num: An integer to store and print consecutive values (initialized to 1)
 
-End program.
+6.Set Initial Values
+
+7.num ← 1
+
+8.Begin Outer Loop to handle rows
+
+8.For i from 1 to n (here, n = 4):
+
+9.Begin Inner Loop for each row’s numbers:
+
+10.For j from 1 to i:
+
+11.Print the value of num
+
+12.Increment num ← num + 1
+
+13.After the inner loop ends, print a newline to move to the next row
+
+14.End Outer Loop
+
+15.Terminate Program
 
 # Program 8: Even Numbers from 0 to 10
 
@@ -241,7 +262,9 @@ Print "SIT" each time.
 End program.
 
 # Program 10:
+
 Objective: Accept an integer input (e.g., a PRN or Roll number) and reverse its digits to produce and display the reversed number.
+
 Steps:
 1.Start the program
 
